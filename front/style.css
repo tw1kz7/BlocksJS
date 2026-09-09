@@ -1,0 +1,9 @@
+main {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+main div {
+    position: absolute;
+}
