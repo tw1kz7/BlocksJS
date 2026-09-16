@@ -1,5 +1,6 @@
+import {baseUrl} from "./con.js";
 export default function handleReadMemory(callback){
-    fetch('http://localhost:3000/blocks')
+    fetch(`${baseUrl}/blocks?id=${id}`)
         .then(response => response.json())
         .then(json => callback(json))
 }

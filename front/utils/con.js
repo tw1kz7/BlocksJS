@@ -1,0 +1,1 @@
+export const baseUrl = "https://tranquil-presence-production-8aba.up.railway.app"

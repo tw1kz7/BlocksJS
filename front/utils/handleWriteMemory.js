@@ -1,5 +1,6 @@
+import {baseUrl} from "./con.js";
 export default function handleWriteMemory(blocksState) {
-    return fetch('http://localhost:3000/blocks',{
+    return fetch(`${baseUrl}/blocks`,{
         method: "POST",
         headers: {
             "Content-type": "application/json",
